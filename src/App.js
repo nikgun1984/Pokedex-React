@@ -1,10 +1,12 @@
-import Pokedex from "./Pokedex";
+import Pokegame from "./Pokegame";
+import "./App.css";
 
 const App = () => {
 	return (
-		<>
-			<Pokedex />
-		</>
+		<div className="App">
+			<h1>Pokedex</h1>
+			<Pokegame />
+		</div>
 	);
 };
 
